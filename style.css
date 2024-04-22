@@ -323,6 +323,18 @@ footer {
 
 }
 
+@media screen and (min-width: 400px) {
+
+        .part-transp {
+            transform: translate(0, -150%);
+        }
+
+        .sobre-marcio {
+            transform: translate(10%, -50%);
+        }
+
+}
+
 @media screen and (min-width: 768px) {
 
     .categorias {
@@ -379,7 +391,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1500px) {
 
     .cabecalho {
         background-color: var(--cor-primaria);
@@ -392,6 +404,10 @@ footer {
         height: 10%;
     }
     
+    .container-menu {
+        transform: translate(0, -18%);
+    }
+
     .imagem-logo {
         height: 80%;
         left: 2%;
@@ -405,7 +421,7 @@ footer {
         font-family: 'font3';
         padding: 3em 8.3em;
         text-align: center;
-        transform: translate(-120%, -15%);
+        transform: translate(0%, -15%);
     }
 
     .opcoes-link {
@@ -444,12 +460,22 @@ footer {
     }
 
     .imagem-butao {
-        transform: translate(470%,-1800%);
+        transform: translate(470%, -1660%);
+    }
+
+    .butao-app {
+        color: var(--cor-texto-base);
+        border: 4px solid var(--cor-texto-base);
+        transform: translate(80%, -1000%);
+    }
+
+    .text-botao2 {
+        color: var(--cor-texto-base);
     }
 
     .part2-projeto {
         font-size: 80px;
-        transform: translate(10%, -670%);
+        transform: translate(13%, -1100%);
     }
 
     .quadro-de-novidades {
@@ -463,7 +489,7 @@ footer {
         display: flex;
         width: 600px;
         height: 500px;
-        transform: translate(190%, -130%);
+        transform: translate(190%, -200%);
     }
 
     .imagem-app {
@@ -494,18 +520,21 @@ footer {
     }
 
     .part-transp2 {
-        transform: translate(0%, -1300%);
+        transform: translate(0%, 190%);
+    }
+
+    .transp-text {
+        transform: translate(0%, -870%);
     }
 
     .sobre-marcio {
-        font-size: 30px;
-        transform: translate(0%, -850%);
+        font-size: 20px;
+        transform: translate(0%, -5200%);
         text-align: center;   
     }
 
     footer {
         width: 100%;
-        transform: translate(0%, -190%);
-        position: sticky;
+        transform: translate(0%, 175%);
     }
 }
